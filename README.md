@@ -82,10 +82,12 @@ xnor(xnorgate,a,b);
 endmodule
 ```
  
-**Logic symbol & Truthtable**
+**Logic symbol & Truthtable:**
+
 ![{C0D9FECC-24A7-4243-A1FD-92B0E571D0A2}](https://github.com/user-attachments/assets/c23ceebb-fdc4-4403-9d90-4b36373de1b4)
 
 **RTL realization Output:** 
+
 ![{04E8E10C-8C63-4463-8177-301D3C520FCD}](https://github.com/user-attachments/assets/dcb38b81-0f4d-4cc8-8ad8-b87a61285c75)
 
 
