@@ -68,27 +68,30 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 
  Developed by:Muthulakshmi D
  RegisterNumber: 2122230401222
- ```module Basic (a, b, y1, y2, y3, y4, y5, y6, y7) ;
-input a, b;
-output yl, y2, y3, y4, y5, у6, y7;
-and (yl, a, b) ;
-or (y2, a, b) ;
-not (y3,a) ;
-xor (y4, a, b) ;
-nor (y5, a, b) ;
-nand (y6, a, b) ;
-nor (y7, a, b) ;
+ 
+ ```module logic (a,b,andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate);
+input a,b;
+output andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate;
+and(andgate,a,b);
+or(orgate,a,b);
+not(notgate,a);
+nand(nandgate,a,b);
+nor(norgate,a,b);
+xor(xorgate,a,b);
+xnor(xnorgate,a,b);
 endmodule
 ```
  
 **Logic symbol & Truthtable**
-![{69BA844F-966A-4BAB-8104-34BFED995377}](https://github.com/user-attachments/assets/654aad0b-a76e-446b-af0c-255c89832ee2)
+![{C0D9FECC-24A7-4243-A1FD-92B0E571D0A2}](https://github.com/user-attachments/assets/c23ceebb-fdc4-4403-9d90-4b36373de1b4)
 
 **RTL realization Output:** 
-![{4FFA5B9E-02A8-4E48-97DF-3DD4E26EFB3C}](https://github.com/user-attachments/assets/5ee49336-4368-4e6b-968e-e787fe90e517)
+![{04E8E10C-8C63-4463-8177-301D3C520FCD}](https://github.com/user-attachments/assets/dcb38b81-0f4d-4cc8-8ad8-b87a61285c75)
 
-**RTL**
-![{5F0E2950-2AB0-4A9A-B10A-C2623092FA38}](https://github.com/user-attachments/assets/00fec773-f872-4342-a623-13d3bb4136d8)
+
+**Output:**
+![{DDA05C2E-25AB-4404-96FC-D255B43B40AF}](https://github.com/user-attachments/assets/e0dd8ad2-fbcb-4f3e-8d88-3851ca9e377b)
+
 
 **Result:**
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
